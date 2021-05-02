@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>betaflight-configurator</id>
+    <version>10.7.0</version>
+    <packageSourceUrl>https://github.com/jake-walker/chocolatey-packages/tree/main/betaflight-configurator</packageSourceUrl>
+    <owners>Jake Walker</owners>
+
+    <title>Betaflight Configurator</title>
+    <authors>Betaflight Open Source Project</authors>
+    <projectUrl>https://betaflight.com</projectUrl>
+    <iconUrl>https://gitcdn.xyz/repo/betaflight/betaflight-configurator/master/assets/windows/bf_installer_small.bmp</iconUrl>
+    <licenseUrl>https://github.com/betaflight/betaflight-configurator/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/betaflight/betaflight-configurator</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/betaflight/betaflight-configurator/issues</bugTrackerUrl>
+    <tags>betaflight-configurator</tags>
+    <summary>Betaflight Configurator is a crossplatform configuration tool for the Betaflight flight control system.</summary>
+    <description>Betaflight Configurator is a crossplatform configuration tool for the Betaflight flight control system. Betaflight Configurator allows you to configure the Betaflight software running on any supported Betaflight target. Various types of aircraft are supported by the tool and by Betaflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
